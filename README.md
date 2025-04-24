@@ -1,4 +1,4 @@
-# Kubernetes
+# Kubernetes Monitoring
 
 ## K8s Insights: Мониторинг Kubernetes с Prometheus и Grafana
 
