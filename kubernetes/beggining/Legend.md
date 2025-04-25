@@ -82,7 +82,9 @@ _По вашему стеку Java еще я дополню вопросы на 
 ---
 
 ## **Полная схема мониторинга**
-Здесь Kubernetes API, как абстракция (сущность) между Prometheus и самим кластером Kubernetes.
+
+Здесь **Kubernetes API**, как абстракция (сущность) взаимодействия между **Prometheus** и самим кластером **Kubernetes**. С помощью механизма Prometheus **(Service Discovery)** Прометеус получает данные о состоянии кластера K8s, обращаясь к **Kubernetes API**, в свою очередь **Kubernetes API** используется, как коллектор с метриками для **Prometheus**. Всё довольно просто.
+
 ```mermaid
 flowchart LR
     subgraph Kubernetes Cluster
