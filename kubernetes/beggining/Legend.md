@@ -35,7 +35,7 @@ flowchart LR
     Grafana -->|"дашборды"| Admin[["Админ"]]
 ```
 
-### 🔍 Как работает Service Discovery:
+### 🔍 [Как работает Service Discovery](https://github.com/lamjob1993/linux-monitoring/blob/main/prometheus/beginning/8.%20%D0%A1%D0%B5%D1%80%D0%B2%D0%B8%D1%81-%D0%B4%D0%B8%D1%81%D0%BA%D0%B0%D0%B2%D0%B5%D1%80%D0%B8%20(Service%20Discovery).md):
 1. **Prometheus спрашивает у Kubernetes API**:
    - _"Какие поды/сервисы/ноды у тебя есть?"_
    - Использует роли:
