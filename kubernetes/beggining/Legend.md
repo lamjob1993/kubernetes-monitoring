@@ -82,7 +82,7 @@ _По вашему стеку Java еще я дополню вопросы на 
 ---
 
 ## **Полная схема мониторинга**
-
+Здесь Kubernetes API, как абстракция (сущность) между Prometheus и самим кластером Kubernetes.
 ```mermaid
 flowchart LR
     subgraph Kubernetes Cluster
