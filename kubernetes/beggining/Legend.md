@@ -29,7 +29,7 @@ flowchart LR
         JavaApp["Java App (Spring Boot)"] -->|"Actuator\n(/actuator/prometheus)"| Prometheus
     end
 
-    Prometheus -->|"Service Discovery\n(автоматический поиск целей)"| KubernetesAPI["Kubernetes API"]
+    Prometheus -->|"Service Discovery\n(автоматический поиск таргетов/целей)"| KubernetesAPI["Kubernetes API"]
     KubernetesAPI -->|"обновляет список\nподов/сервисов"| Prometheus
     Prometheus -->|"хранит данные"| Grafana
     Grafana -->|"дашборды"| Admin[["Админ"]]
