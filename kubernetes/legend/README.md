@@ -1,1 +1,1 @@
-Ваша легенда по стеку **Java / Kubernetes**
+Ваша легенда по стеку: **Java / Kubernetes**
