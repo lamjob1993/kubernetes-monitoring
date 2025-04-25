@@ -77,6 +77,15 @@ scrape_configs:
   - job_name: 'cadvisor'
     kubernetes_sd_configs:
       - role: node  # Ищем ноды
+
+  # Для kube-state-metrics
+  - job_name: 'kube-state-metrics'
+    kubernetes_sd_configs:
+      - role: service
+    relabel_configs:
+      - source_labels: [__meta_kubernetes_service_name]
+        action: keep
+        regex: kube-state-metrics
 ```
 
 ### 🔄 Круговорот данных:
