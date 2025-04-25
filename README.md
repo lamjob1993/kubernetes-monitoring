@@ -19,5 +19,5 @@
 Подходит, как для начинающих DevOps-инженеров, так и для опытных специалистов, которые хотят углубить свои знания в области мониторинга Kubernetes. Если вы знакомы с базовыми концепциями Kubernetes и хотите научиться эффективно отслеживать состояние ваших кластеров, этот раздел для вас.
 
 ### Требования
-- Базовые знания Kubernetes (что такое Pods, Deployments, Services).
+- [Базовые знания Kubernetes](https://github.com/lamjob1993/kubernetes-monitoring/blob/main/kubernetes/beggining/1.%20%D0%91%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F.md) (что такое Pods, Deployments, Services).
 - Установленный локальный кластер Kubernetes.
