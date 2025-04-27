@@ -1,8 +1,8 @@
 # Kubernetes Monitoring
 
-## K8s Insights: Мониторинг Kubernetes с Prometheus и Grafana
+## Мониторинг Kubernetes с Prometheus и Grafana
 
-Добро пожаловать в репозиторий **"K8s Insights: Мониторинг Kubernetes с Prometheus и Grafana"**!  
+Добро пожаловать в репозиторий **"Мониторинг Kubernetes с Prometheus и Grafana"**!  
 
 Этот репозиторий создан для тех, кто хочет освоить современные инструменты мониторинга и визуализации данных в экосистеме **Kubernetes**. Мы рассмотрим, как настроить надежную систему наблюдения за кластером **Kubernetes**, используя мощные инструменты: **Prometheus** для сбора метрик и **Grafana** для их визуализации.
 
