@@ -1,1 +1,6 @@
+# Введение в Kubernetes / K8s
 
+## Содержание
+
+- [Начало](https://github.com/lamjob1993/kubernetes-monitoring/tree/main/kubernetes/beggining)
+- [Легенда инженера](https://github.com/lamjob1993/kubernetes-monitoring/tree/main/kubernetes/legend), работающего в отделе сопровождения (как ПО, так и мониторинга)
