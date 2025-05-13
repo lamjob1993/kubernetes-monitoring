@@ -21,8 +21,8 @@ Kubernetes (часто сокращённо — *K8s*) — это платфор
 - **[Pod](https://kubernetes.io/docs/concepts/workloads/pods/)** — минимальная единица развертывания в Kubernetes. Обычно один Pod содержит один контейнер, но может включать и несколько тесно связанных контейнеров.
 - **[Node](https://kubernetes.io/docs/concepts/architecture/nodes/)** — физический или виртуальный сервер в кластере, на котором запускаются Pods.
 - **[Cluster](https://kubernetes.io/docs/concepts/architecture/)** — группа узлов (Nodes), объединённых в единую систему под управлением Kubernetes.
-- **Deployment** — объект, который описывает желаемое состояние приложения (например, сколько реплик Pods должно быть запущено) и позволяет Kubernetes поддерживать это состояние.
-- **Service** — абстракция, обеспечивающая сетевой доступ к группе Pods.
+- **[Deployment](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)** — объект, который описывает желаемое состояние приложения (например, сколько реплик Pods должно быть запущено) и позволяет Kubernetes поддерживать это состояние.
+- **[Service](https://kubernetes.io/docs/concepts/services-networking/service/)** — абстракция, обеспечивающая сетевой доступ к группе Pods.
 
 **Почему Kubernetes популярен?**
 
